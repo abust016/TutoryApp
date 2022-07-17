@@ -1,15 +1,15 @@
 # Tutory-App
 
-A demo application showcasing various cloud native technologies that implement a system for Students and Tutors to connect.
+A Demo of Tutory Application for Students and Tutors alike to connect.
 
 # Models
 
 ## Student
 
-* Name
+* First Name, Last Name
 * Phone Number
 * Email
-* School
+* University
 * Short description of the help they need
 * Classes they need help with
 * Places they prefer to meet
@@ -17,9 +17,10 @@ A demo application showcasing various cloud native technologies that implement a
 
 ## Tutor
 
-* Name
+* First Name, Last Name
 * Phone Number
 * Email
+* University
 * Place they prefer to meet
 * Classes or subjects they can provide help for
 * Schedule of times available
@@ -32,15 +33,15 @@ A demo application showcasing various cloud native technologies that implement a
 
 ## Review
 
-* Student
-* Tutor
+* Student (First Name, Last Name Initial)
+* Tutor (First Name, Last Name Initial)
 * Rating (1-5)
 * Comments
 
 ## Session
 
-* Student
-* Tutor
+* Student (First Name, Last Name Initial)
+* Tutor (First Name, Last Name Initial)
 * Time
 * Location
 
@@ -78,7 +79,7 @@ A demo application showcasing various cloud native technologies that implement a
 
 ## Search Service
 
-* GET a Tutor by subject,availability,location
+* GET a Tutor by subject, availability, Department
 * GET a Tutor by name
 * GET a Student by name
 * GET a Student by subject
