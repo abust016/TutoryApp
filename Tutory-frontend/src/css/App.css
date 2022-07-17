@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #339FFF;
+  height: 60px;
+  padding: 20px;
+  color: white;
+
+}
+
+.App-title{
+  font: 20px Helvetica, Verdana, sans-serif;
+
+}
+
+.sl_button {
+  class: btn btn-primary;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.btn{
+  margin-top: 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background-color: #0A54F1;
+
+}
+
+.user-headline{
+  font: bold 18px/1.5 Helvetica, Verdana, sans-serif;
+  margin-top: .3em;
+}
+
+.user-item:hover {
+  background: #eee;
+  overflow: auto;
+}
+
+.user-list{
+  padding: 0;
+}
+
+.user-item{
+  width: auto;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 10px;
+  margin-top: 10px;
+
+}
+
+.user-item2{
+  width: auto;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 10px;
+
+}
+
+.studentForm-item {
+  width: auto;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 10px;
+  margin-top: 10px;
+
+}
+
+.user-item p{
+  font: 200 14px/1.5 Helvetica, Times New Roman, serif;
+  margin-bottom: 1em;
+}
+
+.studentForm-item p{
+  font: 200 14px/1.5 Helvetica, Times New Roman, serif;
+  margin-bottom: 1em;
+}
+
+.user-item2 p{
+  font: 200 14px/1.5 Helvetica, Times New Roman, serif;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.bold-p{
+  font-weight: bold;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
